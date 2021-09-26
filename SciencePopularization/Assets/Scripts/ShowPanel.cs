@@ -14,10 +14,16 @@ public class ShowPanel : MonoBehaviour
     public Slider Slider;
     public List<GameObject> ModelListS;
 
+    public string[] Names;
+
     public int NUMModel;
 
     public GameObject ARPanelBtnText3;
+
+    public GameObject ARPanelNames;
+
     public string[] TextStr;
+
     private float TimeTOUCH;
 
 
@@ -53,7 +59,7 @@ public class ShowPanel : MonoBehaviour
     private void OnClickLBtn()
     {
         NUMModel--;
-        if (NUMModel <= 0)
+        if (NUMModel < 0)
         {
             NUMModel = ModelListS.Count-1;
         }
@@ -63,6 +69,7 @@ public class ShowPanel : MonoBehaviour
         }
         ModelListS[NUMModel].gameObject.SetActive(true);
         ARPanelBtnText3.gameObject.GetComponent<Text>().text = TextStr[NUMModel];
+        ARPanelNames.gameObject.GetComponent<Text>().text = Names[NUMModel];
         Camera.transform.eulerAngles = V2;
         Camera.transform.position = V1;
     }
@@ -80,6 +87,7 @@ public class ShowPanel : MonoBehaviour
         }
         ModelListS[NUMModel].gameObject.SetActive(true);
         ARPanelBtnText3.gameObject.GetComponent<Text>().text = TextStr[NUMModel];
+        ARPanelNames.gameObject.GetComponent<Text>().text = Names[NUMModel];
         Camera.transform.eulerAngles = V2;
         Camera.transform.position = V1;
     }
