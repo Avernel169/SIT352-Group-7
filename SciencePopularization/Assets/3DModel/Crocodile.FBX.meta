@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e741e1e2550ac04428d4ef13c70d9cc7
+guid: 49c9a4fb0a75b324a90b3138675e3357
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
@@ -10,8 +10,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: M_Rhinoceros
-    second: {fileID: 2100000, guid: 2ccbe5e255f7a41db9fa6db23ba25475, type: 2}
+      name: M_Crocodile
+    second: {fileID: 2100000, guid: 57327a57e819656488cc3710d491f866, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

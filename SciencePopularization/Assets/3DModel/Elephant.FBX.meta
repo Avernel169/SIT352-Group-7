@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e741e1e2550ac04428d4ef13c70d9cc7
+guid: 23887646c203d974b83537d9cb7be0e4
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
@@ -10,8 +10,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: M_Rhinoceros
-    second: {fileID: 2100000, guid: 2ccbe5e255f7a41db9fa6db23ba25475, type: 2}
+      name: M_Elephant
+    second: {fileID: 2100000, guid: 9b06cf4fb0a62f340990db00f477d62a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
