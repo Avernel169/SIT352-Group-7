@@ -16,7 +16,7 @@ public class ShowPanel : MonoBehaviour
 
     public string[] Names;
 
-    public int NUMModel;
+    private int NUMModel;
 
     public GameObject ARPanelBtnText3;
 
