@@ -56,6 +56,33 @@ public class ShowPanel : MonoBehaviour
         ARPanelBtnText3.gameObject.SetActive(!ARPanelBtnText3.activeSelf);
     }
 
+    private void AnimalAudioPlay() //Create a function that triggers audios play respectively to the related animals
+    {
+        switch (NUMModel)
+        {
+            case 0:
+                AnimalSoundManager.instance.PlayTiger();
+                break;
+            case 1:
+                AnimalSoundManager.instance.PlayCroc();
+                break;
+            case 2:
+                AnimalSoundManager.instance.PlayElephant();
+                break;
+            case 3:
+                AnimalSoundManager.instance.PlayHippo();
+                break;
+            case 4:
+                AnimalSoundManager.instance.PlayBear();
+                break;
+            case 5:
+                AnimalSoundManager.instance.PlayRhino();
+                break;
+            case 6:
+                AnimalSoundManager.instance.PlayFox();
+                break;
+        } 
+    }
     private void OnClickLBtn()
     {
         NUMModel--;
@@ -70,6 +97,7 @@ public class ShowPanel : MonoBehaviour
         ModelListS[NUMModel].gameObject.SetActive(true);
         ARPanelBtnText3.gameObject.GetComponent<Text>().text = TextStr[NUMModel];
         ARPanelNames.gameObject.GetComponent<Text>().text = Names[NUMModel];
+        AnimalAudioPlay(); //Call the function to play the sound effect
         Camera.transform.eulerAngles = V2;
         Camera.transform.position = V1;
     }
@@ -88,6 +116,7 @@ public class ShowPanel : MonoBehaviour
         ModelListS[NUMModel].gameObject.SetActive(true);
         ARPanelBtnText3.gameObject.GetComponent<Text>().text = TextStr[NUMModel];
         ARPanelNames.gameObject.GetComponent<Text>().text = Names[NUMModel];
+        AnimalAudioPlay(); //Call the function to play the sound effect
         Camera.transform.eulerAngles = V2;
         Camera.transform.position = V1;
     }
