@@ -386,8 +386,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.5, y: 3.310997}
-  m_SizeDelta: {x: -0.99997, y: 34.622}
+  m_AnchoredPosition: {x: 8.368988, y: 3.3109894}
+  m_SizeDelta: {x: -16.738, y: 34.622}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &267563782
 MonoBehaviour:
@@ -422,7 +422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Model \n& Mesuem"
+  m_Text: 
 --- !u!222 &267563783
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -816,7 +816,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Tiger
+  m_Text: 
 --- !u!222 &668790700
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1025,8 +1025,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.647995, y: 10.707001}
-  m_SizeDelta: {x: 77.587, y: 79.681}
+  m_AnchoredPosition: {x: -27.332, y: 19.266}
+  m_SizeDelta: {x: 90.25, y: 82.214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724558863
 MonoBehaviour:
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: menu
+  m_Text: 
 --- !u!222 &724558864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1526,8 +1526,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 262, y: -633}
-  m_SizeDelta: {x: 500, y: 203}
+  m_AnchoredPosition: {x: 848.65, y: -406.751}
+  m_SizeDelta: {x: 582.714, y: 339.878}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1085995465
 MonoBehaviour:
@@ -1593,7 +1593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 23a14682d380d1c48bd03bb063711d5e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66b747fdce91b204e992c79bf282d918, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1647,8 +1647,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 830, y: -633}
-  m_SizeDelta: {x: 500, y: 203}
+  m_AnchoredPosition: {x: 841.7587, y: -814}
+  m_SizeDelta: {x: 595.593, y: 260.286}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1130111509
 MonoBehaviour:
@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 23a14682d380d1c48bd03bb063711d5e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb325848089d740429ab2c7385e2c326, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1768,8 +1768,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000020027, y: 170}
-  m_SizeDelta: {x: 500, y: 203}
+  m_AnchoredPosition: {x: 264.68, y: 360}
+  m_SizeDelta: {x: 688.29, y: 490.266}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1167273123
 MonoBehaviour:
@@ -1835,7 +1835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 23a14682d380d1c48bd03bb063711d5e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f8910f382a78044bbc16df01e0d8b6a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2065,7 +2065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 68f3eb3265d2a7d4a8c786c8a62e68a3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0c12642da4904924f8acfe69e3bd0a00, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2561,8 +2561,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.81, y: 6.621}
-  m_SizeDelta: {x: 54.765, y: -13.242}
+  m_AnchoredPosition: {x: 25.382, y: -6.774994}
+  m_SizeDelta: {x: 13.62, y: -40.035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1680704201
 MonoBehaviour:
@@ -2597,7 +2597,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: AR Scan
+  m_Text: 
 --- !u!222 &1680704202
 CanvasRenderer:
   m_ObjectHideFlags: 0

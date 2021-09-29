@@ -607,7 +607,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: adbd5759f0a5852428d9c1130511c6c2, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -619,7 +619,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Siberian tiger will fly towards its prey
+  m_Text: Tigers are predators that prey herbivorous animals like deer and boars.
+    They are the largest living cat species in the world
 --- !u!222 &241628845
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -645,7 +646,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -421}
-  m_SizeDelta: {x: 668.7, y: 439.5}
+  m_SizeDelta: {x: 699, y: 301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &266060635
 GameObject:
@@ -2281,15 +2282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94368db01d0fcd0428d96b6b7f9a6200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnimalAudios:
-  - {fileID: 8300000, guid: e8f72e4a79ad9ab449e0d67b0031cc0b, type: 3}
-  - {fileID: 8300000, guid: 5f3d009e845dfc145886c0f6cf7fff53, type: 3}
-  - {fileID: 8300000, guid: 2dbb54ee959978246a8a8bfd17d7534b, type: 3}
-  - {fileID: 8300000, guid: e78ec82abc6fece478b06743e4487a7f, type: 3}
-  - {fileID: 8300000, guid: 553d1b30c1d533947ad577cea6b3178a, type: 3}
-  - {fileID: 8300000, guid: 8a2be5138e9570d45aa32f4f0caae7ed, type: 3}
-  - {fileID: 8300000, guid: ae6f383751394464fa054d92e0e32e21, type: 3}
-  Audio: {fileID: 1031144425}
 --- !u!4 &1031144424
 Transform:
   m_ObjectHideFlags: 0
@@ -3064,12 +3056,18 @@ MonoBehaviour:
   ARPanelBtnText3: {fileID: 241628843}
   ARPanelNames: {fileID: 4611792}
   TextStr:
-  - Siberian tiger will fly towards its prey
-  - Big claws will slap prey to death
-  - The Siberian tiger is a protected animal and needs our protection
-  - The Siberian tiger will clean its own hair
-  - 
-  - 
+  - Tigers are predators that prey other herbivorous animals like deer and wild boars.
+    They are the largest living cat species in the world.
+  - Crocodile are semiaquatic predators living between freshwater and land. They
+    prey fish and small animal on land using huge mouth.
+  - Elephants are currently the largest animals on land. They have long noses and
+    large tusks on both sides of their noses. They eat grass as food.
+  - Hippos are large semi-aquatic mammals, with a large barrel-shaped bodies, short
+    legs, short tails and enormous heads. They eat mostly grass.
+  - Bears have large bodies with stocky legs, long snouts, small rounded ears, shaggy
+    hair and short tails. Most bears are meat-lovers.
+  - "Rhinos are known for their awesome, giant horns that grow from their snouts.
+    They\u2019re herbivores, and like to munch on grass and plants."
   - 
   ModelList: {fileID: 1644832699}
   Camera: {fileID: 1880154516}
