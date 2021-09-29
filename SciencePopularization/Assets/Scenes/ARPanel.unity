@@ -235,13 +235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &21235865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,15 +247,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Hippopotamus
-  mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 0.68798834
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.13759767
-  mRuntimeTexture: {fileID: 2800000, guid: bb1250690d130c74cb4c832c84d5c975, type: 3}
-  mMotionHint: 1
 --- !u!21 &69052279
 Material:
   serializedVersion: 6
@@ -363,7 +347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ARScan
+  m_Text: 
 --- !u!222 &86893785
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -482,13 +466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &106306772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,15 +478,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Elephant
-  mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1.5003663
-  mImageTargetType: 3
-  mWidth: 0.13330078
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: a778a88eafd2fd0419f52ca5d4861f99, type: 3}
-  mMotionHint: 1
 --- !u!1 &132407516
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 104, y: 120}
+  m_AnchoredPosition: {x: 80, y: 111.9}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &132407518
@@ -1157,13 +1125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 2
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &177130861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,15 +1137,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: zoulu
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/fadongji.xml
-  mAspectRatio: 0.690286
-  mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.690286
-  mRuntimeTexture: {fileID: 0}
-  mMotionHint: 1
 --- !u!1 &241628843
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,8 +2018,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.7444992, y: -1.0412002}
+  m_SizeDelta: {x: 15.6593, y: 18.7536}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &403523942
 MonoBehaviour:
@@ -2089,8 +2041,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 81d424f259542994a90ceade91719001, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2644,8 +2596,8 @@ RectTransform:
   m_Father: {fileID: 905234656}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2662,14 +2614,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 6348753b10c0d134bb45fe42636e9c9b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3121,13 +3073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &670852720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3140,15 +3085,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Fox
-  mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 0.625
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.125
-  mRuntimeTexture: {fileID: 2800000, guid: d0705407cb2a4db44822298d20205bac, type: 3}
-  mMotionHint: 1
 --- !u!21 &673641346
 Material:
   serializedVersion: 6
@@ -4050,13 +3986,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1044029952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4069,15 +3998,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Crocodile
-  mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 0.6665039
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.13330078
-  mRuntimeTexture: {fileID: 2800000, guid: 99c07015336d40f458a98ec6cfe3aee9, type: 3}
-  mMotionHint: 1
 --- !u!43 &1062421498
 Mesh:
   m_ObjectHideFlags: 0
@@ -4704,7 +4624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu
+  m_Text: 
 --- !u!222 &1165441997
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5190,13 +5110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 2
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1354698128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5209,15 +5122,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: siwang
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/fadongji.xml
-  mAspectRatio: 0.59775
-  mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.59775
-  mRuntimeTexture: {fileID: 0}
-  mMotionHint: 1
 --- !u!1001 &1375769459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5337,8 +5241,6 @@ MonoBehaviour:
   m_Script: {fileID: -1826476478, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mWorldCenterMode: 2
-  mWorldCenter: {fileID: 0}
 --- !u!81 &1391448100
 AudioListener:
   m_ObjectHideFlags: 0
@@ -5526,13 +5428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1395325829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5545,15 +5440,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: HR
-  mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 0.6698413
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.13396826
-  mRuntimeTexture: {fileID: 2800000, guid: 994ce02ab982c5447bd4abe7fd058808, type: 3}
-  mMotionHint: 1
 --- !u!43 &1398819956
 Mesh:
   m_ObjectHideFlags: 0
@@ -5947,13 +5833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 2
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1646727566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5966,15 +5845,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pu
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/fadongji.xml
-  mAspectRatio: 0.695698
-  mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.695698
-  mRuntimeTexture: {fileID: 0}
-  mMotionHint: 1
 --- !u!1 &1647717221
 GameObject:
   m_ObjectHideFlags: 0
@@ -6131,8 +6001,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -96.4}
-  m_SizeDelta: {x: 441.5, y: 141.3}
+  m_AnchoredPosition: {x: 0, y: -109.98706}
+  m_SizeDelta: {x: 441.5, y: 244.737}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1654704808
 MonoBehaviour:
@@ -6154,7 +6024,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 65bd05e04249f7e47b79a609953d314e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66b747fdce91b204e992c79bf282d918, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6187,7 +6057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1678043212
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6444,13 +6314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1772779214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6463,15 +6326,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Siberian&human
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/fadongji.xml
-  mAspectRatio: 1.3333333
-  mImageTargetType: 3
-  mWidth: 0.15
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 47c96b8182812fc489c44c7028bbc7a6, type: 3}
-  mMotionHint: 1
 --- !u!1001 &1789283929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6598,8 +6452,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -149, y: 115}
-  m_SizeDelta: {x: 260, y: 170}
+  m_AnchoredPosition: {x: -126.943, y: 134.924}
+  m_SizeDelta: {x: 211.886, y: 222.848}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1801933184
 MonoBehaviour:
@@ -6658,15 +6512,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.93333334, g: 0.9254902, b: 0.6745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0fc0de3083e06da4cb258f64ad4dd717, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5e8088e8ff5cd5e428d700b05a573a24, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7164,13 +7018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 2
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1922777756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7183,15 +7030,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: qingli
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/fadongji.xml
-  mAspectRatio: 0.597162
-  mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.597162
-  mRuntimeTexture: {fileID: 0}
-  mMotionHint: 1
 --- !u!1 &1942173898
 GameObject:
   m_ObjectHideFlags: 0
@@ -7691,13 +7529,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2024686618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7710,15 +7541,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: bear
-  mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 0.66015625
-  mImageTargetType: 3
-  mWidth: 0.19999999
-  mHeight: 0.13203125
-  mRuntimeTexture: {fileID: 2800000, guid: f55482dea335af04da6a53456c25c3b4, type: 3}
-  mMotionHint: 1
 --- !u!1 &2043863030
 GameObject:
   m_ObjectHideFlags: 0
@@ -7752,9 +7574,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.41680145, y: -1.6671}
+  m_SizeDelta: {x: 9.1664, y: 3.3342}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2043863032
 MonoBehaviour:
@@ -7776,8 +7598,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c96bbf9fe9d4b63459f5a4e70a0b3307, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8008,7 +7830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8016,7 +7838,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: adbd5759f0a5852428d9c1130511c6c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 1
     m_BestFit: 0
@@ -8226,13 +8048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 2
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2075756541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8245,15 +8060,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: gongji
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/fadongji.xml
-  mAspectRatio: 0.54294
-  mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.54294
-  mRuntimeTexture: {fileID: 0}
-  mMotionHint: 1
 --- !u!1 &2077525743
 GameObject:
   m_ObjectHideFlags: 0
