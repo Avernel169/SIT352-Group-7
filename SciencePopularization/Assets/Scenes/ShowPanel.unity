@@ -359,8 +359,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 59, y: 61}
-  m_SizeDelta: {x: 178.07, y: 36.92}
+  m_AnchoredPosition: {x: 52.65, y: 61}
+  m_SizeDelta: {x: 171.55, y: 36.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &132407518
 MonoBehaviour:
@@ -1051,8 +1051,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -6.5175934, y: -1.6000004}
-  m_SizeDelta: {x: -11.634, y: -11.37}
+  m_AnchoredPosition: {x: -0.0018310547, y: -1.6000004}
+  m_SizeDelta: {x: 0.00048828, y: -11.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &403523942
 MonoBehaviour:
@@ -1532,8 +1532,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0007247925, y: -0.8999996}
-  m_SizeDelta: {x: 27.43, y: -16.14}
+  m_AnchoredPosition: {x: -0.0003438, y: -0.00050735474}
+  m_SizeDelta: {x: 36.93, y: -9.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577936758
 MonoBehaviour:
@@ -2044,8 +2044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.1800003, y: 0}
-  m_SizeDelta: {x: -16.31, y: 0}
+  m_AnchoredPosition: {x: -0.00093078613, y: 0}
+  m_SizeDelta: {x: 0.0022278, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &967901043
 GameObject:
@@ -2578,8 +2578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 0}
-  m_SizeDelta: {x: -20, y: 0}
+  m_AnchoredPosition: {x: -0.0009613037, y: 0}
+  m_SizeDelta: {x: -0.0034332, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1417418418
 GameObject:
@@ -3068,7 +3068,9 @@ MonoBehaviour:
     hair and short tails. Most bears are meat-lovers.
   - "Rhinos are known for their awesome, giant horns that grow from their snouts.
     They\u2019re herbivores, and like to munch on grass and plants."
-  - 
+  - Foxes are omnivores. Their diet is made up primarily of invertebrates such as
+    insects and small vertebrates such as reptiles and birds. They may also eat eggs
+    and vegetation.
   ModelList: {fileID: 1644832699}
   Camera: {fileID: 1880154516}
 --- !u!114 &1813525592
@@ -3709,8 +3711,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -3.0756989, y: -1.6999998}
-  m_SizeDelta: {x: 6.15, y: -12.05}
+  m_AnchoredPosition: {x: -0.0004348755, y: -1.6999998}
+  m_SizeDelta: {x: -0.0004425, y: -12.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2043863032
 MonoBehaviour:
